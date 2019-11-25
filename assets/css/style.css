@@ -12,6 +12,9 @@ body {
 }
 
 /* ***************** Header Styling ***************** */
+.logo-area {
+}
+
 .logoImg {
    height: 80px;
 }
@@ -20,9 +23,13 @@ body {
    width: 100%;
 }
 
+.brand-header {
+   display: inline-flex;
+   font-size: 2.75em;
+}
+
 .btn-nav {
    padding: 10px 16px;
-   background-color: #1c1c1c;
    color: #ED2079;
    text-align: center;
    font-size: 1.5em;
@@ -31,8 +38,8 @@ body {
 }
 
    .btn-nav:hover {
-      border: 1px solid #FF8A25;;
-      color: #FF8A25;
+      color: #f5f4f2;
+      background-color: #ED2079;
 
    }
 
