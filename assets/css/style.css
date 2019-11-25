@@ -1,0 +1,19 @@
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+body {
+   background-color: #f5f4f2;
+   
+}
+
+/* ***************** Header Styling ***************** */
+.logoImg {
+   height: 100px;
+}
+
+.main-image {
+   width: 100%;
+}
