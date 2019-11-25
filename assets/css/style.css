@@ -6,14 +6,39 @@ body, html {
 
 body {
    background-color: #f5f4f2;
+   font-family: 'Roboto', sans-serif;
+
    
 }
 
 /* ***************** Header Styling ***************** */
 .logoImg {
-   height: 100px;
+   height: 80px;
 }
 
 .main-image {
    width: 100%;
+}
+
+.btn-nav {
+   padding: 10px 16px;
+   background-color: #1c1c1c;
+   color: #ED2079;
+   text-align: center;
+   font-size: 1.5em;
+   margin-right: 10px;
+   border: 1px solid #ED2079;
+}
+
+   .btn-nav:hover {
+      border: 1px solid #FF8A25;;
+      color: #FF8A25;
+
+   }
+
+.right-nav {
+   margin-top: auto;
+   margin-bottom: auto;
+
+
 }
