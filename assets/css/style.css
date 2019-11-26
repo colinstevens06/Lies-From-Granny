@@ -79,22 +79,40 @@ body {
     margin-right: auto;
  } */
 
+ @media screen and (min-width: 100px) {
+    .brand-header {
+       font-size: 1em;
+    }
 
-@media screen and (max-width: 576px) {
+    .logoImg {
+      height: 40px;
+   }
+ 
+ }
+
+@media screen and (min-width: 576px) {
    .brand-header {
       font-size: 1.25em;
    }
 
-}
-
-@media screen and (max-width: 768px) {
-   .brand-header {
-      font-size: 2em;
+   .logoImg {
+      height: 70px;
    }
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 767px) {
+   .brand-header {
+      font-size: 2.25em;
+   }
+
+   .logoImg {
+      height: 80px;
+   }
+
+}
+
+@media screen and (min-width: 992px) {
 
    .nav-item {
       margin-left: 0px;
