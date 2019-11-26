@@ -59,9 +59,16 @@ body {
  } 
 
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 576px) {
    .brand-header {
       font-size: 1.25em;
+   }
+
+}
+
+@media screen and (max-width: 768px) {
+   .brand-header {
+      font-size: 2em;
    }
 
 }
