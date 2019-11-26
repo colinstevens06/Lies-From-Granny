@@ -7,13 +7,10 @@ body, html {
 body {
    background-color: #f5f4f2;
    font-family: 'Roboto', sans-serif;
-
    
 }
 
 /* ***************** Header Styling ***************** */
-.logo-area {
-}
 
 .logoImg {
    height: 80px;
@@ -28,24 +25,62 @@ body {
    font-size: 2.75em;
 }
 
-.btn-nav {
-   padding: 10px 16px;
-   color: #ED2079;
-   text-align: center;
-   font-size: 1.5em;
-   margin-right: 10px;
+.nav-item {
+   font-size: 1.25em;
    border: 1px solid #ED2079;
+   margin-left: 5px;
+}
+.nav-item:hover {
+   background-color: #ED2079;
+
 }
 
-   .btn-nav:hover {
+.nav-link {
+   color: #ED2079;
+}
+
+   .nav-link:hover {
       color: #f5f4f2;
-      background-color: #ED2079;
 
    }
 
 .right-nav {
    margin-top: auto;
    margin-bottom: auto;
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(237,32,121, .5)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+ 
+ .custom-toggler.navbar-toggler {
+   border-color: rgb(237,32,121);
+ } 
+
+
+@media screen and (max-width: 415px) {
+   .brand-header {
+      font-size: 1.25em;
+   }
+
+}
+
+@media screen and (max-width: 992px) {
+
+   .nav-item {
+      margin-left: 0px;
+      margin: 5px;
+   }
+
+   .btn {
+     width: 45%;
+     display: inline-block;
+   }
+
+   .navbar-nav {
+      flex-direction: row;
+   }
 
 
 }
