@@ -7,11 +7,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-   <!-- javascript files -->
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
    <!-- CSS Libraries-->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -41,12 +36,12 @@
          </button>
 
          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-               <li class="btn btn-nav nav-item"><a href="#" class="nav-link">Home</a></li>
-               <li class="btn btn-nav nav-item"><a href="#" class="nav-link">About</a></li>
-               <li class="btn btn-nav nav-item"><a href="#" class="nav-link">Shows</a></li>
-               <li class="btn btn-nav nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
+            <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+               <button class="btn btn-nav nav-item" id="home-nav"><a href="#" class="nav-link">Home</a></button>
+               <button class="btn btn-nav nav-item"><a href="#" class="nav-link">About</a></button>
+               <button class="btn btn-nav nav-item" id="shows-nav"><a href="#" class="nav-link">Shows</a></button>
+               <button class="btn btn-nav nav-item"><a href="#" class="nav-link">Contact</a></button>
+            </div>
          </div>
       </div>
    </nav>
@@ -54,54 +49,82 @@
    <!--             END OF NAVIGATION                  -->
 
 
-   <div class="container-fluid">
-      <img class="main-image img-fluid" src="./assets/images/home/Lies-From-Granny.jpg"
-         alt="Group shot of Lies From Granny">
-      <div class="container my-5">
-         <div class="row">
-            <div class="col">
-               <h2>Covering Hits, '60s to Present, and Everything In Between</h2>
-               <p>Lies From Granny is a five-piece rock cover band who brings a party environment by playing a mix of
-                  rock, pop punk and anything else you might want to dance to.</p>
-               <p>You can find us at venues in the Baltimore and D.C. areas. Follow us on Instragram and Facebook to
-                  stay in the loop on what we've got going on.</p>
-            </div>
-         </div>
-
-
-         <!-- 3-PACK -->
-         <div class="row mt-5">
-            <div class="card-deck">
-               <div class="card text-center">
-                  <img src="./assets/images/home/Lies-From-Granny-Shows.jpg" alt="Lies From Granny in concert"
-                     class="card-img rounded-circle mx-auto">
-                  <div class="card-body">
-                     <h3 class="card-title">Shows</h3>
-                  </div>
-               </div>
-               <div class="card text-center">
-                  <img src="./assets/images/home/Lies-From-Granny-Songs.jpg" alt=""
-                     class="card-img rounded-circle mx-auto">
-                  <div class="card-body">
-                     <h3 class="card-title">Song List</h3>
-                  </div>
-               </div>
-               <div class="card text-center">
-                  <img src="./assets/images/home/Granny-Logo.jpg" alt="" class="card-img rounded-circle mx-auto">
-                  <div class="card-body">
-                     <h3 class="card-title">Contact Us</h3>
-                  </div>
+   <div id="main-screen">
+      <div class="container-fluid">
+         <img class="main-image img-fluid" src="./assets/images/home/Lies-From-Granny.jpg"
+            alt="Group shot of Lies From Granny">
+         <div class="container my-5">
+            <div class="row">
+               <div class="col">
+                  <h2>Covering Hits, '60s to Present, and Everything In Between</h2>
+                  <p>Lies From Granny is a five-piece rock cover band who brings a party environment by playing a mix of
+                     rock, pop punk and anything else you might want to dance to.</p>
+                  <p>You can find us at venues in the Baltimore and D.C. areas. Follow us on Instragram and Facebook to
+                     stay in the loop on what we've got going on.</p>
                </div>
             </div>
-         </div>
-         <!-- END OF 3-PACK -->
 
+
+            <!-- 3-PACK -->
+            <div class="row mt-5">
+               <div class="card-deck">
+                  <div class="card text-center">
+                     <img src="./assets/images/home/Lies-From-Granny-Shows.jpg" alt="Lies From Granny in concert"
+                        class="card-img rounded-circle mx-auto">
+                     <div class="card-body">
+                        <h3 class="card-title">Shows</h3>
+                     </div>
+                  </div>
+                  <div class="card text-center">
+                     <img src="./assets/images/home/Lies-From-Granny-Songs.jpg"
+                        alt="Set list from a recent Lies From Granny show at Sollys in DC"
+                        class="card-img rounded-circle mx-auto">
+                     <div class="card-body">
+                        <h3 class="card-title">Song List</h3>
+                     </div>
+                  </div>
+                  <div class="card text-center">
+                     <img src="./assets/images/home/Granny-Logo.jpg" alt="Lies From Granny logo"
+                        class="card-img rounded-circle mx-auto">
+                     <div class="card-body">
+                        <h3 class="card-title">Contact Us</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- END OF 3-PACK -->
+         </div> 
+      </div>
+   </div> 
+    <!-- *********** END OF MAIN SCREEN *********** -->
+
+   <!-- *********** SHOWS CONTENT *********** -->
+   <div id="shows-content" style="display: none;">
+      <div class="container-fluid">
+         <img src="./assets/images/home/Lies-From-Granny-Shows-Group.jpg"
+            alt="Lies From Granny at the 8x10 in Baltimore" class="main-image img-fluid">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-9"></div>
+               </div>
+            </div>
 
       </div>
    </div>
+   <!-- *********** END OF SHOWS CONTENT *********** -->
 
 
 </body>
+
+
+<!-- javascript files -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="./assets/javascript/script.js"></script>
 
 </html>

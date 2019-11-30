@@ -27,16 +27,18 @@ body {
 
 .nav-item {
    font-size: 1.25em;
-   border: 1px solid #ED2079;
+   border: 1px solid #000000;
    margin-left: 5px;
 }
 .nav-item:hover {
    background-color: #ED2079;
+   border: 1px solid #ED2079;
+
 
 }
 
 .nav-link {
-   color: #ED2079;
+   color: #000000;
 }
 
    .nav-link:hover {
@@ -51,11 +53,11 @@ body {
 }
 
 .custom-toggler .navbar-toggler-icon {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(237,32,121, .5)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, .5)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
  }
  
  .custom-toggler.navbar-toggler {
-   border-color: rgb(237,32,121);
+   border-color: rgb(0,0,0);
  } 
 
  /* ******************** BODY STYLING ******************** */
@@ -81,13 +83,27 @@ body {
 
  @media screen and (min-width: 100px) {
     .brand-header {
-       font-size: 1em;
+       font-size: 1.1em;
+       margin-bottom: 0px;
+
+    }
+
+    .navbar-nav {
+       flex-direction: row;
+       justify-content: center;
     }
 
     .logoImg {
       height: 40px;
    }
  
+ }
+
+ @media screen and (max-width: 575px) {
+    .nav-item {
+       font-size: 1em;
+       padding: .25rem .5rem;
+    }
  }
 
 @media screen and (min-width: 576px) {
