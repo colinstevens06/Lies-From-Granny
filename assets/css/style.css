@@ -65,8 +65,12 @@ body {
  .card {
     background-color: transparent;
     border: 0px;
- }
+     }
 
+     .card:hover{
+        cursor: pointer;
+        transition: 0.5s;
+     }
  /* .card-img {
     width: 85%;
  } */
@@ -81,9 +85,33 @@ body {
     margin-right: auto;
  } */
 
+
+
+ /* ==================== SHOWS ===================== */
+.gig-title {
+   font-size: 1.5em;
+   margin-bottom: 7px;
+}
+
+.gig-deets {
+   font-size: 1.25em;
+   margin-bottom: 10px;
+   font-style: italic;
+}
+
+.gig-text {
+   font-size: 1em;
+   line-height: 1.2;
+
+}
+
+
+
+
+
  @media screen and (min-width: 100px) {
     .brand-header {
-       font-size: 1.1em;
+       font-size: 1.3em;
        margin-bottom: 0px;
 
     }
@@ -104,6 +132,12 @@ body {
        font-size: 1em;
        padding: .25rem .5rem;
     }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+
  }
 
 @media screen and (min-width: 576px) {

@@ -1,5 +1,6 @@
 var mainScreenDiv = $("#main-screen")
 var showsContentDiv = $("#shows-content")
+var showsCard = $("#showsCard")
 
 function showMainScreen() {
    mainScreenDiv.css("display", "block");
@@ -11,5 +12,7 @@ function showShows() {
    showsContentDiv.css("display", "block");
 }
 
+
 $("#shows-nav").on("click", showShows)
 $("#home-nav").on("click", showMainScreen)
+$("#shows-card").on("click", showShows)
