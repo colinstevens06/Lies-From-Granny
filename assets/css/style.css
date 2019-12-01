@@ -127,8 +127,19 @@ body {
     }
     
     .gig-text {
+       font-size: 1.2em;
        border-bottom: 1px solid #000000;
-       margin-bottom: 20px;
+       padding-bottom: 20px;
+    }
+
+    .gig-title {
+       font-size: 2em;
+       text-align: center;
+    }
+
+    .gig-deets {
+       font-size: 1.5em;
+       text-align: center;
     }
 
 
