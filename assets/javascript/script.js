@@ -1,63 +1,44 @@
-var mainScreenDiv = $("#main-screen")
-var showsContentDiv = $("#shows-content")
-var showsCard = $("#showsCard")
-var sectionElement = $("section")
+$(document).ready(function () {
+
+   // **************** DECLARING VARIABLES HERE ****************
+   var sectionElement = $("section")
+   var windowWidth = window.innerWidth
 
 
+   console.log(windowWidth);
 
 
+   // **************** WRITING FUNCTIONS HERE ****************
+   function showMainScreen(event) {
+      event.preventDefault();
+      var goToURL = $(this).attr("data-url")
 
-var swup = new Swup()
+      sectionElement.fadeOut(500)
+      setTimeout(function () { document.location.href = goToURL }, 500)
+         ;
 
-// $(".nav-link").on("click", function(event) {
-//    event.preventDefault();
+   }
 
-//    const href = $(this).attr("href");
-//    console.log(href);
-   
-//    window.history.pushState(null, null, href);
+      function onLoad() {
+         sectionElement.fadeIn(1000)
 
-//    $.ajax({
-//       url: href,
-//       success: function (data) {
-//          $("section").fadeOut(250, function () {
-//             const newPage = $(data).filter("section").html();
+         if (windowWidth <= 400) {
+            switch ($(".main-image").attr("data-main-img")) {
+               case "shows":
+                  $(".main-image").attr("src", "./assets/images/home/Lies-From-Granny-Shows-Mobile.jpg");
+               break;
+               case "home":
+                     $(".main-image").attr("src", "./assets/images/home/Lies-From-Granny-Mobile.jpg");
+            }
+         }
 
-//             $("section").html(newPage)
-//          })
-//          $("section").fadeIn(250);
-//       }
-//    })
+      }
 
-// })
+      // **************** RUNNING FUNCTIONS HERE ****************
+      onLoad();
 
-function showMainScreen(event) {
-   event.preventDefault();
-   var goToURL = $(this).attr("data-url")
-   console.log(this)
-   console.log(goToURL)
-   console.log(sectionElement)
-   sectionElement.fadeOut(500)
-   setTimeout(function(){document.location.href = goToURL}, 500)
-   ;
+      // **************** EVENT LISTENERS HERE ****************
+      $(".nav-btn").on("click", showMainScreen)
 
-
-   // mainScreenDiv.css("display", "block");
-   // showsContentDiv.css("display", "none");
-}
-
-function onLoad() {
-   sectionElement.fadeIn(1000)
-}
-
-// function showShows() {
-//    mainScreenDiv.css("display", "none");
-//    showsContentDiv.css("display", "block");
-// }
-
-onLoad();
-
-
-// $("#shows-nav").on("click", showShows)
-$(".nav-btn").on("click", showMainScreen)
-// $("#shows-card").on("click", showMainScreen)
+      // closes out the document.ready
+   }); 
