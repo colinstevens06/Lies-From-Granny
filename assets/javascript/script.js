@@ -25,7 +25,7 @@ $(document).ready(function () {
          if (windowWidth <= 400) {
             switch ($(".main-image").attr("data-main-img")) {
                case "shows":
-                  $(".main-image").attr("src", "./assets/images/home/Lies-From-Granny-Shows-Mobile.jpg");
+                  $(".main-image").css("display", "none");
                break;
                case "home":
                      $(".main-image").attr("src", "./assets/images/home/Lies-From-Granny-Mobile.jpg");
