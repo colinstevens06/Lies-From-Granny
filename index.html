@@ -36,10 +36,21 @@
 
          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <div class="navbar-nav ml-auto mt-2 mt-lg-0">
-               <button class="btn btn-nav nav-item" id="home-nav"><aclass="nav-link" href="index.html">Home</a></button>
-               <button class="btn btn-nav nav-item"><a href="#" class="nav-link">About</a></button>
-               <button class="btn btn-nav nav-item" id="shows-nav"><a  class="nav-link" href="shows.html">Shows</a></button>
-               <button class="btn btn-nav nav-item"><a href="#" class="nav-link">Contact</a></button>
+               <button class="btn nav-item nav-btn" data-url="index.html">
+                  <a class="nav-link" href="./index.html">Home</a>
+               </button>
+
+               <button class="btn nav-item nav-btn" data-url="about.html">
+                  <a href="/about.html" class="nav-link">About</a>
+               </button>
+
+               <button class="btn nav-item nav-btn" id="shows-nav" data-url="shows.html">
+                  <a class="nav-link" href="./shows.html">Shows</a>
+               </button>
+
+               <button class="btn nav-item nav-btn" data-url="contact.html">
+                  Contact
+               </button>
             </div>
          </div>
       </div>
@@ -47,54 +58,57 @@
 
    <!--             END OF NAVIGATION                  -->
 
-   <section> <!-- ********** SECTION BEGIN ********** -->
-   <div id="main-screen">
-      <div class="container-fluid">
-         <img class="main-image img-fluid" src="./assets/images/home/Lies-From-Granny.jpg"
-            alt="Group shot of Lies From Granny">
-         <div class="container my-5">
-            <div class="row">
-               <div class="col">
-                  <h2>Covering Hits, '60s to Present, and Everything In Between</h2>
-                  <p>Lies From Granny is a five-piece rock cover band who brings a party environment by playing a mix of
-                     rock, pop punk and anything else you might want to dance to.</p>
-                  <p>You can find us at venues in the Baltimore and D.C. areas. Follow us on Instragram and Facebook to
-                     stay in the loop on what we've got going on.</p>
-               </div>
-            </div>
-
-
-            <!-- 3-PACK -->
-            <div class="row mt-5">
-               <div class="card-deck">
-                  <div class="card text-center" id="shows-card">
-                     <img src="./assets/images/home/Lies-From-Granny-Shows.jpg" alt="Lies From Granny in concert"
-                        class="card-img rounded-circle mx-auto">
-                     <div class="card-body">
-                        <h3 class="card-title">Shows</h3>
-                     </div>
-                  </div>
-                  <div class="card text-center">
-                     <img src="./assets/images/home/Lies-From-Granny-Songs.jpg"
-                        alt="Set list from a recent Lies From Granny show at Sollys in DC"
-                        class="card-img rounded-circle mx-auto">
-                     <div class="card-body">
-                        <h3 class="card-title">Song List</h3>
-                     </div>
-                  </div>
-                  <div class="card text-center">
-                     <img src="./assets/images/home/Granny-Logo.jpg" alt="Lies From Granny logo"
-                        class="card-img rounded-circle mx-auto">
-                     <div class="card-body">
-                        <h3 class="card-title">Contact Us</h3>
-                     </div>
+   <section id="swup" class="transition-fade" style="display: none;">
+      <!-- ********** SECTION BEGIN ********** -->
+      <div id="main-screen">
+         <div class="container-fluid">
+            <img class="main-image img-fluid" src="./assets/images/home/Lies-From-Granny.jpg"
+               alt="Group shot of Lies From Granny">
+            <div class="container my-5">
+               <div class="row">
+                  <div class="col">
+                     <h2>Covering Hits, '60s to Present, and Everything In Between</h2>
+                     <p>Lies From Granny is a five-piece rock cover band who brings a party environment by playing a mix
+                        of
+                        rock, pop punk and anything else you might want to dance to.</p>
+                     <p>You can find us at venues in the Baltimore and D.C. areas. Follow us on Instragram and Facebook
+                        to
+                        stay in the loop on what we've got going on.</p>
                   </div>
                </div>
+
+
+               <!-- 3-PACK -->
+               <div class="row mt-5">
+                  <div class="card-deck">
+                     <div class="card text-center nav-btn" data-url="shows.html">
+                        <img src="./assets/images/home/Lies-From-Granny-Shows.jpg" alt="Lies From Granny in concert"
+                           class="card-img rounded-circle mx-auto">
+                        <div class="card-body">
+                           <h3 class="card-title">Shows</h3>
+                        </div>
+                     </div>
+                     <div class="card text-center">
+                        <img src="./assets/images/home/Lies-From-Granny-Songs.jpg"
+                           alt="Set list from a recent Lies From Granny show at Sollys in DC"
+                           class="card-img rounded-circle mx-auto">
+                        <div class="card-body">
+                           <h3 class="card-title">Song List</h3>
+                        </div>
+                     </div>
+                     <div class="card text-center">
+                        <img src="./assets/images/home/Granny-Logo.jpg" alt="Lies From Granny logo"
+                           class="card-img rounded-circle mx-auto">
+                        <div class="card-body">
+                           <h3 class="card-title">Contact Us</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- END OF 3-PACK -->
             </div>
-            <!-- END OF 3-PACK -->
          </div>
       </div>
-   </div>
    </section>
    <!-- *********** END OF MAIN SCREEN *********** -->
 
@@ -102,8 +116,10 @@
 
 
 <!-- javascript files -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"

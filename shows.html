@@ -14,7 +14,7 @@
    <link rel="stylesheet" href="./assets/css/style.css">
 
    <!-- SEO Touchpoints -->
-   <title>Lies From Granny | Rock Cover Band | Baltimore & Washington D.C.</title>
+   <title>Upcoming Shows | Lies From Granny | Rock Cover Band | Baltimore & Washington D.C.</title>
 </head>
 
 <body>
@@ -36,12 +36,21 @@
 
          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <div class="navbar-nav ml-auto mt-2 mt-lg-0">
-               <button class="btn btn-nav nav-item" id="home-nav"><a class="nav-link"
-                     href="index.html">Home</a></button>
-               <button class="btn btn-nav nav-item"><a href="#" class="nav-link">About</a></button>
-               <button class="btn btn-nav nav-item" id="shows-nav"><a class="nav-link"
-                     href="shows.html">Shows</a></button>
-               <button class="btn btn-nav nav-item"><a href="#" class="nav-link">Contact</a></button>
+               <button class="btn nav-item nav-btn" data-url="index.html">
+                  <a class="nav-link" href="./index.html">Home</a>
+               </button>
+
+               <button class="btn nav-item nav-btn" data-url="about.html">
+                  <a href="/about.html" class="nav-link">About</a>
+               </button>
+
+               <button class="btn nav-item nav-btn" id="shows-nav" data-url="shows.html">
+                  <a class="nav-link" href="./shows.html">Shows</a>
+               </button>
+
+               <button class="btn nav-item nav-btn" data-url="contact.html">
+                  Contact
+               </button>
             </div>
          </div>
       </div>
@@ -54,7 +63,7 @@
 
 
    <!-- *********** SHOWS CONTENT *********** -->
-   <section>
+   <section id="swup" class="transition-fade" style="display: none;">
       <div id="shows-content">
          <div class="container-fluid">
             <img src="./assets/images/home/Lies-From-Granny-Shows-Group.jpg"
@@ -322,8 +331,10 @@
 
 
 <!-- javascript files -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"

@@ -29,12 +29,13 @@ body {
    font-size: 1.25em;
    border: 1px solid #000000;
    margin-left: 5px;
+   color: #000000;
 }
-.nav-item:hover {
-   background-color: #ED2079;
-   border: 1px solid #ED2079;
 
-}
+   .nav-item:hover {
+      background-color: #ED2079;
+      border: 1px solid #ED2079;
+   }
 
 .nav-link {
    color: #000000;
@@ -42,13 +43,11 @@ body {
 
    .nav-link:hover {
       color: #f5f4f2;
-
    }
 
 .right-nav {
    margin-top: auto;
    margin-bottom: auto;
-
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -91,6 +90,16 @@ body {
 }
 
 
+ /* ==================== FADES ===================== */
+
+/* .transition-fade {
+   opacity: 1;
+   transition: 1500ms;
+}
+
+html.is-animating .transition-fade {
+   opacity: 0;
+} */
 
 
 
