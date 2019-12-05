@@ -172,6 +172,10 @@ html.is-animating .transition-fade {
        margin-bottom: 15px;
     }
 
+    .upcoming-shows {
+       margin-top: 1rem!important;
+    }
+
 
  }
 
