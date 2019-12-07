@@ -4,6 +4,11 @@ body, html {
    height: 100%;
 }
 
+   #showsMainImg {
+      /*display: none;*/
+      border: 4px purple dotted;
+   }
+
 body {
    background-color: #f5f4f2;
    font-family: 'Roboto', sans-serif;
@@ -135,6 +140,7 @@ html.is-animating .transition-fade {
  }
 
  @media screen and (max-width: 575px) {
+
     .nav-item {
        font-size: 1em;
        padding: .25rem .5rem;
@@ -175,6 +181,10 @@ html.is-animating .transition-fade {
     .upcoming-shows {
        margin-top: 1rem!important;
     }
+    
+       #showsMainImg {
+          display: none;
+       }
 
 
  }
@@ -188,6 +198,7 @@ html.is-animating .transition-fade {
       height: 70px;
    }
 
+
 }
 
 @media screen and (min-width: 767px) {
@@ -197,6 +208,12 @@ html.is-animating .transition-fade {
 
    .logoImg {
       height: 80px;
+   }
+
+
+   #showsMainImg {
+      /*display: none;*/
+      border: 4px red dotted;
    }
 
 }
@@ -217,5 +234,9 @@ html.is-animating .transition-fade {
       flex-direction: row;
    }
 
+   #showsMainImg {
+      /*display: none;*/
+      border: 4px blue dotted;
+   }
 
 }
