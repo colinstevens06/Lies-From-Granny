@@ -4,10 +4,6 @@ body, html {
    height: 100%;
 }
 
-   #showsMainImg {
-      /*display: none;*/
-      border: 4px purple dotted;
-   }
 
 body {
    background-color: #f5f4f2;
@@ -211,11 +207,6 @@ html.is-animating .transition-fade {
    }
 
 
-   #showsMainImg {
-      /*display: none;*/
-      border: 4px red dotted;
-   }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -232,11 +223,6 @@ html.is-animating .transition-fade {
 
    .navbar-nav {
       flex-direction: row;
-   }
-
-   #showsMainImg {
-      /*display: none;*/
-      border: 4px blue dotted;
    }
 
 }
