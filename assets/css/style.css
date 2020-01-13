@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
    margin: 0;
    padding: 0;
    height: 100%;
@@ -6,15 +7,22 @@ body, html {
 
 body {
    background-color: #f5f4f2;
-   font-family: 'Roboto', sans-serif;
-   
+   font-family: "Roboto", sans-serif;
 }
 
 .clearfix::after {
    content: " ";
    display: block;
    clear: both;
- }
+}
+
+footer a {
+   color: #ed2079;
+}
+
+footer a:hover {
+   color: #e59bbb;
+}
 
 /* ***************** Header Styling ***************** */
 
@@ -38,11 +46,11 @@ body {
    color: #000000;
 }
 
-   .nav-item:hover {
-      background-color: #ED2079;
-      border: 1px solid #ED2079;
-      color: #f5f4f2;
-   }
+.nav-item:hover {
+   background-color: #ed2079;
+   border: 1px solid #ed2079;
+   color: #f5f4f2;
+}
 
 .right-nav {
    margin-top: auto;
@@ -51,24 +59,24 @@ body {
 
 .custom-toggler .navbar-toggler-icon {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, .5)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
- }
- 
- .custom-toggler.navbar-toggler {
-   border-color: rgb(0,0,0);
- } 
+}
 
- /* ******************** BODY STYLING ******************** */
- 
- .card {
-    background-color: transparent;
-    border: 0px;
-   }
-   
-   .card:hover{
-      cursor: pointer;
-      transition: 0.5s;
-   }
-   
+.custom-toggler.navbar-toggler {
+   border-color: rgb(0, 0, 0);
+}
+
+/* ******************** BODY STYLING ******************** */
+
+.card {
+   background-color: transparent;
+   border: 0px;
+}
+
+.card:hover {
+   cursor: pointer;
+   transition: 0.5s;
+}
+
 /* ******************** SONGS LIST ******************** */
 
 .song-list h2 {
@@ -80,11 +88,10 @@ body {
 }
 
 .song-list ul {
-   margin-bottom: 1.5rem
+   margin-bottom: 1.5rem;
 }
 
-   
- /* ==================== SHOWS ===================== */
+/* ==================== SHOWS ===================== */
 .gig-title {
    font-size: 1.5em;
    margin-bottom: 7px;
@@ -99,11 +106,9 @@ body {
 .gig-text {
    font-size: 1em;
    line-height: 1.2;
-
 }
 
-
- /* ==================== FADES ===================== */
+/* ==================== FADES ===================== */
 
 /* .transition-fade {
    opacity: 1;
@@ -114,75 +119,68 @@ html.is-animating .transition-fade {
    opacity: 0;
 } */
 
+@media screen and (min-width: 100px) {
+   .brand-header {
+      font-size: 1.3em;
+      margin-bottom: 0px;
+   }
 
+   .navbar-nav {
+      flex-direction: row;
+      justify-content: center;
+   }
 
- @media screen and (min-width: 100px) {
-    .brand-header {
-       font-size: 1.3em;
-       margin-bottom: 0px;
-
-    }
-
-    .navbar-nav {
-       flex-direction: row;
-       justify-content: center;
-    }
-
-    .logoImg {
+   .logoImg {
       height: 40px;
    }
- 
- }
+}
 
- @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
+   .nav-item {
+      font-size: 1em;
+      padding: 0.25rem 0.5rem;
+   }
 
-    .nav-item {
-       font-size: 1em;
-       padding: .25rem .5rem;
-    }
-
-    h2 {
+   h2 {
       font-size: 1.5rem;
-    }
+   }
 
-    .gig-image {
-       margin-bottom: 10px;
-    }
-    
-    .gig-text {
-       font-size: 1.2em;
-       border-bottom: 1px solid #000000;
-       padding-bottom: 20px;
-    }
+   .gig-image {
+      margin-bottom: 10px;
+   }
 
-    .gig-title {
-       font-size: 2em;
-       text-align: center;
-    }
+   .gig-text {
+      font-size: 1.2em;
+      border-bottom: 1px solid #000000;
+      padding-bottom: 20px;
+   }
 
-    .gig-deets {
-       font-size: 1.5em;
-       text-align: center;
-    }
+   .gig-title {
+      font-size: 2em;
+      text-align: center;
+   }
 
-    .main-image {
-       margin-top: 15px;
-    }
+   .gig-deets {
+      font-size: 1.5em;
+      text-align: center;
+   }
 
-    .song-list-img {
-       margin-bottom: 15px;
-    }
+   .main-image {
+      margin-top: 15px;
+   }
 
-    .upcoming-shows {
-       margin-top: 1rem!important;
-    }
-    
-       #showsMainImg {
-          display: none;
-       }
+   .song-list-img {
+      margin-bottom: 15px;
+   }
 
+   .upcoming-shows {
+      margin-top: 1rem !important;
+   }
 
- }
+   #showsMainImg {
+      display: none;
+   }
+}
 
 @media screen and (min-width: 576px) {
    .brand-header {
@@ -192,8 +190,6 @@ html.is-animating .transition-fade {
    .logoImg {
       height: 70px;
    }
-
-
 }
 
 @media screen and (min-width: 767px) {
@@ -204,24 +200,20 @@ html.is-animating .transition-fade {
    .logoImg {
       height: 80px;
    }
-
-
 }
 
 @media screen and (min-width: 992px) {
-
    .nav-item {
       margin-left: 0px;
       margin: 5px;
    }
 
    .btn {
-     width: 45%;
-     display: inline-block;
+      width: 45%;
+      display: inline-block;
    }
 
    .navbar-nav {
       flex-direction: row;
    }
-
 }
