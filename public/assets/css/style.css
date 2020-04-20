@@ -124,14 +124,30 @@ footer {
 
 /* ==================== FADES ===================== */
 
-/* .transition-fade {
-   opacity: 1;
-   transition: 1500ms;
+.fade-enter {
+  opacity: 0;
 }
 
-html.is-animating .transition-fade {
-   opacity: 0;
-} */
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms linear 400ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms linear;
+}
+
+.page {
+  position: absolute;
+  top: 106px;
+  left: 0;
+  right: 0;
+}
 
 @media screen and (min-width: 100px) {
    .brand-header {

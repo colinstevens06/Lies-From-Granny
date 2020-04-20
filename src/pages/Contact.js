@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div>
-      <section id="swup" className="transition-fade" style="display: none;">
+      <section id="swup" className="transition-fade page">
         <div className="footer-spacer">
           <div className="container my-3">
             <div className="row">

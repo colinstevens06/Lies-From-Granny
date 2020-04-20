@@ -3,7 +3,7 @@ import React from 'react'
 export default function Songs() {
   return (
     <div>
-      <section id="swup" className="transition-fade" style="display: none;">
+      <section id="swup" className="transition-fade page">
         <div className="footer-spacer">
           <div id="main-screen">
             <div className="container-fluid">
@@ -364,24 +364,7 @@ export default function Songs() {
                 </div>
                 {/* <!-- end of songs by band --> */}
 
-                {/* <!-- ********** SONGS BY DECADE ********** --> */}
-                <div className="row" data-song-group="songs-by-decade" style="display: none;">
-                  <div className="col-sm-6">
-                    <h2>blink-182</h2>
-                    <ul>
-                      <li>song 1</li>
-                    </ul>
-                  </div>
 
-                  {/* <!-- SECOND COLUMN --> */}
-                  <div className="col-sm-6">
-                    <h2>blink-182</h2>
-                    <ul>
-                      <li>song 1</li>
-                    </ul>
-                  </div>
-                </div>
-                {/* <!-- end of songs by decade --> */}
               </div>
             </div>
           </div>

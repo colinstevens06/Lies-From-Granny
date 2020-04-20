@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <section id="swup" className="transition-fade" style="display: none;">
+      <section id="swup" className="transition-fade page">
         <div className="footer-spacer">
           {/* <!-- ********** SECTION BEGIN ********** --> */}
           <div id="main-screen">

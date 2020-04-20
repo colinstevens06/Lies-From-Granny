@@ -17,9 +17,13 @@ function App() {
       <Router>
         <Nav />
         <div>
-          <Route render={({ }) => (
+          <Route render={({ location }) => (
             <TransitionGroup>
-              <CSSTransition>
+              <CSSTransition
+                key={location.key}
+                timeout={800}
+                classNames="fade"
+              >
                 <Switch location={location}>
                   <Route exact path="/">
                     <Home />

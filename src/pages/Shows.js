@@ -6,7 +6,7 @@ export default function Shows() {
 
 
 
-      <section id="swup" className="transition-fade" style="display: none;">
+      <section id="swup" className="transition-fade page">
         <div className="footer-spacer">
 
           <div id="shows-content">
