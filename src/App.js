@@ -5,7 +5,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import logo from './logo.svg';
 
 // Import Pages and navigation
-import Nav from './components/Nav'
+import Nav from './components/global/Nav'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Shows from './pages/Shows'
