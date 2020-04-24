@@ -99,6 +99,7 @@ footer {
 .gig-text {
   font-size: 1em;
   line-height: 1.2;
+  margin-bottom: 12px;
 }
 
 .shows-container {
@@ -123,6 +124,11 @@ footer {
   margin-bottom: 25px;
   margin-right: 10px;
   padding-right: 10px;
+}
+
+.show-card ul {
+  -webkit-padding-start: 28px;
+          padding-inline-start: 28px;
 }
 
 /* ==================== FADES ===================== */
@@ -173,6 +179,7 @@ footer {
 .gig-text {
   font-size: 1em;
   line-height: 1.2;
+  margin-bottom: 12px;
 }
 
 .shows-container {
@@ -197,6 +204,11 @@ footer {
   margin-bottom: 25px;
   margin-right: 10px;
   padding-right: 10px;
+}
+
+.show-card ul {
+  -webkit-padding-start: 28px;
+          padding-inline-start: 28px;
 }
 
 /* ==================== SONGS LIST ==================== */

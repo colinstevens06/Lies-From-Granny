@@ -3,7 +3,10 @@
     "id": 11,
     "showName": "Best Buddies Fundraiser",
     "showDate": "Feb. 22 2020",
-    "showText": "",
+    "showText": [
+      "Thanks for all who came out to support Best Buddies!",
+      "It was a very fun event. We played in the back of the brewery and it was a cool environment!"
+    ],
     "showImg": "./assets/images/shows/best-buddies.jpg",
     "showImgAlt": "Best Buddies flyer"
   },
@@ -11,15 +14,25 @@
     "id": 10,
     "showName": "8x10",
     "showDate": "Feb. 14, 2020",
-    "showText": "",
+    "showText": [
+      "8x10 shows always bring a different excitement level. Thanks to everyone who came out and made the night a blast!"
+    ],
     "showImg": "./assets/images/shows/Valentines-8x10-Web-flyer.jpg",
-    "showImgAlt": "LFG Valentine's at 8x10 flyer"
+    "showImgAlt": "LFG Valentine's at 8x10 flyer",
+    "songs": [
+      "Flagpole Sitta",
+      "This Love",
+      "Valerie",
+      "Josie"
+    ]
   },
   {
     "id": 9,
     "showName": "Sollys on U Street",
     "showDate": "Jan. 4, 2019",
-    "showText": "Our first show of 2020 was a blast! Thanks to all who came out. It was packed upstairs and we loved everyone singing along.",
+    "showText": [
+      "Our first show of 2020 was a blast! Thanks to all who came out. It was packed upstairs and we loved everyone singing along."
+    ],
     "showImg": "./assets/images/shows/Sollys-Jan-2019.jpg",
     "showImgAlt": "LFG guitarist and singer Nick Hermes",
     "songs": [
@@ -31,23 +44,42 @@
     "id": 8,
     "showName": "Sollys on U Street",
     "showDate": "Nov. 23, 2019",
-    "showText": "",
+    "showText": [
+      "Our first D.C. gig. Solly's is the spot! Great stage and sound system. And a great dance floor! Was poppin."
+    ],
     "showImg": "./assets/images/shows/Sollys-11-23.jpg",
-    "showImgAlt": "Lies From Granny guitar player Kyle Fives"
+    "showImgAlt": "Lies From Granny guitar player Kyle Fives",
+    "songs": [
+      "Dirty Little Secret",
+      "Killin' in the Name",
+      "Absolutely (Story of a Girl)",
+      "She Hates Me"
+    ]
   },
   {
     "id": 7,
     "showName": "Mums",
     "showDate": "Oct. 19, 2019",
-    "showText": "",
+    "showText": [
+      "Halloween songs at Mums, one of our favorite Baltimore spots."
+    ],
     "showImg": "./assets/images/shows/Mums-10-19.jpg",
-    "showImgAlt": "Lies From Granny bass player Ben Denissen"
+    "showImgAlt": "Lies From Granny bass player Ben Denissen",
+    "songs": [
+      "Anthem Part Two",
+      "Feeling This",
+      "Highway to Hell",
+      "I Put a Spell on You",
+      "Ghostbusters"
+    ]
   },
   {
     "id": 6,
     "showName": "Sandlot",
     "showDate": "Sept. 8, 2019",
-    "showText": "",
+    "showText": [
+      "Outside venue in Baltimore. This was our third gig in 48 hours. What a weekend!"
+    ],
     "showImg": "./assets/images/shows/Sandlot-9-8-19.jpg",
     "showImgAlt": "Anna Stevens and Kyle Fives out front at Sandlot in Baltimore"
   },
@@ -55,15 +87,25 @@
     "id": 5,
     "showName": "8x10",
     "showDate": "Sept. 7, 2019",
-    "showText": "",
+    "showText": [
+      "LFG's first show at the 8x10. It was a blast! 200+ attendance. Very grateful to play at such a cool venue."
+    ],
     "showImg": "./assets/images/shows/8x10-9-7-19.jpg",
-    "showImgAlt": "Kyle Fives and Anna Stevens rockin the 8x10 stage"
+    "showImgAlt": "Kyle Fives and Anna Stevens rockin the 8x10 stage",
+    "songs": [
+      "Rich Girl",
+      "Short Skirt/Long Jacket",
+      "Brain Stew",
+      "If It Makes You Happy"
+    ]
   },
   {
     "id": 4,
     "showName": "Locust Point Festival",
     "showDate": "Sept. 7, 2019",
-    "showText": "",
+    "showText": [
+      "Our first festival. Beautiful day to play outside and to be a part of a great community event."
+    ],
     "showImg": "./assets/images/shows/Locust-Point-9-7-19.jpg",
     "showImgAlt": "The whole Lies From Granny gang at the Locust Point Festival"
   },
@@ -71,7 +113,9 @@
     "id": 3,
     "showName": "Mums",
     "showDate": "June 22, 2019",
-    "showText": "",
+    "showText": [
+      "Mums is a great party spot in Federal Hill, Baltimore. Cash encouraged!"
+    ],
     "showImg": "./assets/images/shows/Mums-6-22-19.jpg",
     "showImgAlt": "Colin Stevens drumming up a storm at an LFG show"
   },
@@ -79,7 +123,10 @@
     "id": 2,
     "showName": "Sandlot",
     "showDate": "June 21, 2019",
-    "showText": "",
+    "showText": [
+      "The first gig at Sandlot went so well they asked us back!",
+      "This was a Friday happy hour - gorgeous day with great tunes."
+    ],
     "showImg": "./assets/images/shows/Sandlot-6-21-19.jpg",
     "showImgAlt": "Anna Stevens singing at the Sandlot in Baltimore"
   },
@@ -87,7 +134,9 @@
     "id": 1,
     "showName": "Sandlot",
     "showDate": "June 12, 2019",
-    "showText": "",
+    "showText": [
+      "This was our first show at Sandlot. It's an outdoor spot in Harbor East and is right on the water. It's hard to beat playing outside."
+    ],
     "showImg": "./assets/images/shows/Sandlot-6-12-19.jpg",
     "showImgAlt": "Kyle Fives shredding the guitar at Sandlot in Baltimore"
   }

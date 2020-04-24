@@ -12,6 +12,18 @@ const List = ({ items }) => (
   </ul>
 );
 
+const DeetsDiv = ({ value }) => (
+  <div className="gig-text">{value}</div>
+);
+
+const Deets = ({ items }) => (
+  <div>
+    {
+      items.map((item, i) => <DeetsDiv key={i} value={item} />)
+    }
+  </div>
+);
+
 export default function ShowCard(props) {
 
   return (
@@ -26,10 +38,12 @@ export default function ShowCard(props) {
         <div className="col-md-6">
           <div className="gig-title">{props.showName}</div>
           <div className="gig-deets">{props.showDate}</div>
-          <div className="gig-text">{props.showText}</div>
-          <div className="gig-text">New songs included:</div>
+          {props.showText && <Deets items={props.showText} />}
           {props.songs &&
-            <List items={props.songs} />
+            <div>
+              <div className="gig-text my-3">New songs included:</div>
+              <List items={props.songs} />
+            </div>
           }
 
 
