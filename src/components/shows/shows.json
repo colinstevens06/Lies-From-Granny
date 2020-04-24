@@ -11,7 +11,7 @@
     "id": 10,
     "showName": "8x10",
     "showDate": "Feb. 14, 2020",
-    "showText": "&lt;h1&gt;Hi there!&lt;/h1&gt;",
+    "showText": "",
     "showImg": "./assets/images/shows/Valentines-8x10-Web-flyer.jpg",
     "showImgAlt": "LFG Valentine's at 8x10 flyer"
   },
@@ -19,9 +19,13 @@
     "id": 9,
     "showName": "Sollys on U Street",
     "showDate": "Jan. 4, 2019",
-    "showText": "",
+    "showText": "Our first show of 2020 was a blast! Thanks to all who came out. It was packed upstairs and we loved everyone singing along.",
     "showImg": "./assets/images/shows/Sollys-Jan-2019.jpg",
-    "showImgAlt": "LFG guitarist and singer Nick Hermes"
+    "showImgAlt": "LFG guitarist and singer Nick Hermes",
+    "songs": [
+      "Hey Jealousy",
+      "Santeria"
+    ]
   },
   {
     "id": 8,

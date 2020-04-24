@@ -15,6 +15,7 @@ export default function ShowsContainer() {
           showText={show.showText}
           showImg={show.showImg}
           showImgAlt={show.showImgAlt}
+          songs={show.songs}
         />
       ))}
     </div>
