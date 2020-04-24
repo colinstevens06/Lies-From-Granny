@@ -7,8 +7,7 @@ export default function Footer() {
       <footer className="footer bg-dark">
         <div className="container text-center">
           <span className="text-light p-4 mb-0">
-            Page developed by
-          <a href="https://www.instagram.com/drumminup" target="_blank">Drummin Up Media</a>
+            Page developed by <a href="https://www.instagram.com/drumminup" target="_blank">Drummin Up Media</a>
           </span>
         </div>
       </footer>
