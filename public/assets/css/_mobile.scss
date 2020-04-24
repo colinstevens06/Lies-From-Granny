@@ -1,20 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 100px) {
   .brand-header {
      font-size: 1.3em;
@@ -98,6 +83,12 @@
   }
 }
 
+// @media screen and (min-width: 992px) {
+// .container {
+  
+// }
+// }
+
 @media screen and (min-width: 992px) {
   .nav-item {
      margin-left: 0px;
@@ -111,5 +102,10 @@
 
   .navbar-nav {
      flex-direction: row;
+  }
+
+  .container {
+    width: 1150px;
+    max-width: 1150px;
   }
 }

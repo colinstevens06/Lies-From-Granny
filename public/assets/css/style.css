@@ -101,6 +101,30 @@ footer {
   line-height: 1.2;
 }
 
+.shows-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.show-card {
+  width: 540px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
 /* ==================== FADES ===================== */
 .fade-enter {
   opacity: 0;
@@ -149,6 +173,30 @@ footer {
 .gig-text {
   font-size: 1em;
   line-height: 1.2;
+}
+
+.shows-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.show-card {
+  width: 540px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 /* ==================== SONGS LIST ==================== */
@@ -253,6 +301,10 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .container {
+    width: 1150px;
+    max-width: 1150px;
   }
 }
 /*# sourceMappingURL=style.css.map */

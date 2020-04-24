@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../components/global/Footer'
+
 
 export default function Songs() {
   return (
@@ -370,17 +372,8 @@ export default function Songs() {
           </div>
         </div>
         {/* <!-- closes footer spacer --> */}
+        <Footer />
 
-        {/* <!-- *********** START OF FOOTER *********** --> */}
-        <footer className="footer bg-dark mt-1">
-          <div className="container text-center">
-            <span className="text-light p-4 mb-0">
-              Page developed by
-          <a href="https://www.instagram.com/drumminup" target="_blank">Drummin Up Media</a>
-            </span>
-          </div>
-        </footer>
-        {/* <!-- *********** END OF FOOTER *********** --> */}
       </section>
     </div>
   )

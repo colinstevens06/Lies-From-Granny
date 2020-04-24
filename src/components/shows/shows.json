@@ -1,0 +1,90 @@
+[
+  {
+    "id": 11,
+    "showName": "Best Buddies Fundraiser",
+    "showDate": "Feb. 22 2020",
+    "showText": "",
+    "showImg": "./assets/images/shows/best-buddies.jpg",
+    "showImgAlt": "Best Buddies flyer"
+  },
+  {
+    "id": 10,
+    "showName": "8x10",
+    "showDate": "Feb. 14, 2020",
+    "showText": "&lt;h1&gt;Hi there!&lt;/h1&gt;",
+    "showImg": "./assets/images/shows/Valentines-8x10-Web-flyer.jpg",
+    "showImgAlt": "LFG Valentine's at 8x10 flyer"
+  },
+  {
+    "id": 9,
+    "showName": "Sollys on U Street",
+    "showDate": "Jan. 4, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Sollys-Jan-2019.jpg",
+    "showImgAlt": "LFG guitarist and singer Nick Hermes"
+  },
+  {
+    "id": 8,
+    "showName": "Sollys on U Street",
+    "showDate": "Nov. 23, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Sollys-11-23.jpg",
+    "showImgAlt": "Lies From Granny guitar player Kyle Fives"
+  },
+  {
+    "id": 7,
+    "showName": "Mums",
+    "showDate": "Oct. 19, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Mums-10-19.jpg",
+    "showImgAlt": "Lies From Granny bass player Ben Denissen"
+  },
+  {
+    "id": 6,
+    "showName": "Sandlot",
+    "showDate": "Sept. 8, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Sandlot-9-8-19.jpg",
+    "showImgAlt": "Anna Stevens and Kyle Fives out front at Sandlot in Baltimore"
+  },
+  {
+    "id": 5,
+    "showName": "8x10",
+    "showDate": "Sept. 7, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/8x10-9-7-19.jpg",
+    "showImgAlt": "Kyle Fives and Anna Stevens rockin the 8x10 stage"
+  },
+  {
+    "id": 4,
+    "showName": "Locust Point Festival",
+    "showDate": "Sept. 7, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Locust-Point-9-7-19.jpg",
+    "showImgAlt": "The whole Lies From Granny gang at the Locust Point Festival"
+  },
+  {
+    "id": 3,
+    "showName": "Mums",
+    "showDate": "June 22, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Mums-6-22-19.jpg",
+    "showImgAlt": "Colin Stevens drumming up a storm at an LFG show"
+  },
+  {
+    "id": 2,
+    "showName": "Sandlot",
+    "showDate": "June 21, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Sandlot-6-21-19.jpg",
+    "showImgAlt": "Anna Stevens singing at the Sandlot in Baltimore"
+  },
+  {
+    "id": 1,
+    "showName": "Sandlot",
+    "showDate": "June 12, 2019",
+    "showText": "",
+    "showImg": "./assets/images/shows/Sandlot-6-12-19.jpg",
+    "showImgAlt": "Kyle Fives shredding the guitar at Sandlot in Baltimore"
+  }
+]

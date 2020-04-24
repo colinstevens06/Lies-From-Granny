@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/global/Footer'
 
 export default function Home() {
   return (
@@ -71,20 +72,8 @@ export default function Home() {
           </div>
         </div>
         {/* <!-- end of footer spacer --> */}
-
-        {/* <!-- *********** START OF FOOTER *********** --> */}
-        <footer className="footer bg-dark">
-          <div className="container text-center">
-            <span className="text-light p-4 mb-0">
-              Page developed by
-          <a href="https://www.instagram.com/drumminup" target="_blank">Drummin Up Media</a>
-            </span>
-          </div>
-        </footer>
-        {/* <!-- *********** END OF FOOTER *********** --> */}
+        <Footer />
       </section>
-
-
 
     </div >
   )

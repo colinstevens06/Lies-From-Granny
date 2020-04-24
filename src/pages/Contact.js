@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/global/Footer'
 
 export default function Contact() {
   return (
@@ -38,15 +39,9 @@ export default function Contact() {
           </div>
         </div>
 
-        <footer className="footer bg-dark">
-          <div className="container text-center">
-            <span className="text-light p-4 mb-0">
-              Page developed by
-          <a href="https://www.instagram.com/drumminup" target="_blank">Drummin Up Media</a>
-            </span>
-          </div>
-        </footer>
+        <Footer />
       </section>
+
     </div>
   )
 }
