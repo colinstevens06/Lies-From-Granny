@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function Nav() {
 
-  
+
 
 
   return (
@@ -12,10 +12,13 @@ export default function Nav() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <div className="navbar-brand d-flex flex-row align-items-center">
-            <img src="./assets/images/home/Lies-From-Granny-Logo.png" alt="Lies From Granny logo" className="logoImg mr-4" />
-            <h1 className="brand-header d-flex" id="brand-header">
-              Lies From Granny
-      </h1>
+            <Link className="logo-nav-link" to="/">
+
+              <img src="./assets/images/home/Lies-From-Granny-Logo.png" alt="Lies From Granny logo" className="logoImg mr-4" />
+              <h1 className="brand-header d-flex" id="brand-header">
+                Lies From Granny
+            </h1>
+            </Link>
           </div>
 
           <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse"

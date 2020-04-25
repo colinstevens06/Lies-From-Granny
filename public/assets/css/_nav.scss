@@ -30,9 +30,21 @@
   height: 80px;
 }
 
+.logo-nav-link {
+  color: #212529;
+  display: flex;
+  transition: .5s;
+  &:hover {
+    color: #ed2079;
+    transition: .5s;
+    text-decoration: none;
+  }
+}
+
 .brand-header {
   display: inline-flex;
   font-size: 2.75em;
+  align-items: center;
 }
 
 @media screen and (min-width: 100px) {

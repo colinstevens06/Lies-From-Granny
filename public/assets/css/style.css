@@ -60,11 +60,30 @@ body {
   height: 80px;
 }
 
+.logo-nav-link {
+  color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.logo-nav-link:hover {
+  color: #ed2079;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+}
+
 .brand-header {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 2.75em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 100px) {
@@ -335,15 +354,13 @@ footer {
     font-size: 35px;
   }
   .home-video-container {
-    width: 100%;
+    width: 350px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
   .video {
-    height: 210px;
-    margin-left: 5px;
-    margin-right: 5px;
+    height: 200px;
   }
 }
 
@@ -474,6 +491,10 @@ footer {
   }
   .song-list-img {
     margin-bottom: 15px;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
