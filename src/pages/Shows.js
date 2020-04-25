@@ -12,9 +12,8 @@ export default function ShowsTest() {
 
           <div id="shows-content">
             <div className="container-fluid">
-              <img src="./assets/images/home/Lies-From-Granny-Shows-Group.jpg"
-                alt="Lies From Granny at the 8x10 in Baltimore" className="main-image img-fluid" data-main-img="shows"
-                id="showsMainImg" />
+              <div className="main-image-container__shows"></div>
+
             </div>
             <div className="container mt-4">
               <ShowsContainer />
