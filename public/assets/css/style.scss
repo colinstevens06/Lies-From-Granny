@@ -36,4 +36,27 @@ body {
 @import './home';
 @import './shows';
 @import './songs-list';
-@import './mobile';
+
+
+
+@media screen and (max-width: 575px) {
+  h2 {
+     font-size: 1.5rem;
+  }
+
+  .main-image {
+     margin-top: 15px;
+  }
+
+  .song-list-img {
+     margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 1150px;
+    max-width: 1150px;
+  }
+}

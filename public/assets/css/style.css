@@ -67,6 +67,67 @@ body {
   font-size: 2.75em;
 }
 
+@media screen and (min-width: 100px) {
+  .brand-header {
+    font-size: 1.3em;
+    margin-bottom: 0px;
+  }
+  .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logoImg {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nav-item {
+    font-size: 1em;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .brand-header {
+    font-size: 1.25em;
+  }
+  .logoImg {
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .brand-header {
+    font-size: 2.25em;
+  }
+  .logoImg {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    margin-left: 0px;
+    margin: 5px;
+  }
+  .btn {
+    width: 45%;
+    display: inline-block;
+  }
+  .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 /* ==================== FOOTER ===================== */
 .footer-spacer {
   margin: 0;
@@ -124,6 +185,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  margin-top: 30px;
   padding: 10px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -147,6 +209,34 @@ footer {
 @media screen and (max-width: 575px) {
   .main-image-container__shows {
     display: none;
+  }
+  .shows-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .show-card {
+    border-bottom: 1px solid #000000;
+  }
+  .show-card:last-of-type {
+    border-bottom: none;
+  }
+  .gig-image {
+    margin-bottom: 10px;
+  }
+  .gig-text {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+  }
+  .gig-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .gig-deets {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .upcoming-shows {
+    margin-top: 1rem !important;
   }
 }
 
@@ -291,6 +381,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  margin-top: 30px;
   padding: 10px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -314,6 +405,34 @@ footer {
 @media screen and (max-width: 575px) {
   .main-image-container__shows {
     display: none;
+  }
+  .shows-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .show-card {
+    border-bottom: 1px solid #000000;
+  }
+  .show-card:last-of-type {
+    border-bottom: none;
+  }
+  .gig-image {
+    margin-bottom: 10px;
+  }
+  .gig-text {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+  }
+  .gig-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .gig-deets {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .upcoming-shows {
+    margin-top: 1rem !important;
   }
 }
 
@@ -346,48 +465,9 @@ footer {
   margin-bottom: .75rem;
 }
 
-@media screen and (min-width: 100px) {
-  .brand-header {
-    font-size: 1.3em;
-    margin-bottom: 0px;
-  }
-  .navbar-nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .logoImg {
-    height: 40px;
-  }
-}
-
 @media screen and (max-width: 575px) {
-  .nav-item {
-    font-size: 1em;
-    padding: 0.25rem 0.5rem;
-  }
   h2 {
     font-size: 1.5rem;
-  }
-  .gig-image {
-    margin-bottom: 10px;
-  }
-  .gig-text {
-    font-size: 1.2em;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 20px;
-  }
-  .gig-title {
-    font-size: 2em;
-    text-align: center;
-  }
-  .gig-deets {
-    font-size: 1.5em;
-    text-align: center;
   }
   .main-image {
     margin-top: 15px;
@@ -395,47 +475,9 @@ footer {
   .song-list-img {
     margin-bottom: 15px;
   }
-  .upcoming-shows {
-    margin-top: 1rem !important;
-  }
-  #showsMainImg {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .brand-header {
-    font-size: 1.25em;
-  }
-  .logoImg {
-    height: 70px;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .brand-header {
-    font-size: 2.25em;
-  }
-  .logoImg {
-    height: 80px;
-  }
 }
 
 @media screen and (min-width: 992px) {
-  .nav-item {
-    margin-left: 0px;
-    margin: 5px;
-  }
-  .btn {
-    width: 45%;
-    display: inline-block;
-  }
-  .navbar-nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
   .container {
     width: 1150px;
     max-width: 1150px;

@@ -15,7 +15,7 @@ export default function ShowsTest() {
               <div className="main-image-container__shows"></div>
 
             </div>
-            <div className="container mt-4">
+            <div className="container">
               <ShowsContainer />
             </div>
             {/* <!-- closes body container --> */}
