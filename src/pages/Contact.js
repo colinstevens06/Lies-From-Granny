@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../components/global/Footer'
+import { Link } from 'react-router-dom'
 
 export default function Contact() {
   return (
@@ -16,19 +17,15 @@ export default function Contact() {
             </p>
                 <p>We'd love to hear from you.</p>
                 <p>
-                  We'll work with you on selecting songs to fit your
-                  party's vibe. Check out our
-              <a href="songs.html">song list</a> for an idea of what
-              we play.
+                  We'll work with you on selecting songs to fit your party's vibe. Check out our <Link to="/songs">song list</Link> for an idea of what we play.
             </p>
                 <p>
-                  Email us at
-              <a href="mailto:liesfromgranny@gmail.com">LiesFromGranny@gmail.com</a>
+                  Email us at <a href="mailto:liesfromgranny@gmail.com">LiesFromGranny@gmail.com</a>
                 </p>
                 <p>Follow us on social media:</p>
                 <ul>
-                  <li><a href="https://www.instagram.com/liesfromgranny/" target="_blank">Instagram</a></li>
-                  <li><a href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank">Facebook</a></li>
+                  <li><a href="https://www.instagram.com/liesfromgranny/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                  <li><a href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                 </ul>
               </div>
               <div className="col-sm-6">

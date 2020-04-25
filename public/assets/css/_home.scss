@@ -3,9 +3,26 @@
 .card {
   background-color: transparent;
   border: 0px;
+  &:hover {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  a {
+    text-decoration: none;
+    color: #212529;
+  }
 }
 
-.card:hover {
-  cursor: pointer;
-  transition: 0.5s;
+.home-video-container {
+  width: 800px;
+  margin: auto;
 }
+
+.video {
+  margin: auto;
+  width: 100%;
+  height: 450px;
+
+}
+
+
