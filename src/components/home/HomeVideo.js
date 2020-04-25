@@ -5,9 +5,9 @@ export default function HomeVideo() {
     <div>
       <div className="row">
         <div className="col">
-          <h2 style={{ textAlign: "center", fontSize: 55 }} className="my-4">Videos</h2>
+          <h2 className="my-4 video-header">Videos</h2>
           <div className="home-video-container">
-            <iframe src="https://www.youtube.com/embed/Hd506hPzick" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video" className="video"></iframe>
+            <iframe src="https://www.youtube.com/embed/Hd506hPzick" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="video" className="video"></iframe>
 
           </div>
 

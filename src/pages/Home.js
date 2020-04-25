@@ -12,7 +12,10 @@ export default function Home() {
           {/* <!-- ********** SECTION BEGIN ********** --> */}
           <div id="main-screen">
             <div className="container-fluid">
-              <img className="main-image img-fluid" src="./assets/images/home/Lies-From-Granny.jpg" alt="Group shot of Lies From Granny" data-main-img="home" />
+
+              <div className="main-image-container"></div>
+
+
               <div className="container mt-5">
                 <MainText />
               </div>

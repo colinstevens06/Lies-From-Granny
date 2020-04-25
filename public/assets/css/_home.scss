@@ -1,10 +1,21 @@
 /* ==================== HOME ===================== */
 
+.main-image-container {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../images/home/Lies-From-Granny.jpg");
+  background-size: cover;
+}
+
+.fit-content {
+  height: fit-content;
+}
+
+/* ==================== 3-PACK COMPONENT ===================== */
 .card {
   background-color: transparent;
   border: 0px;
   margin: 3rem 0;
-
   &:hover {
     cursor: pointer;
     transition: 0.5s;
@@ -13,6 +24,18 @@
     text-decoration: none;
     color: #212529;
   }
+}
+
+.three-pack {
+  background-color: #e2e2e2;
+}
+
+
+
+/* ==================== VIDEO COMPONENT ===================== */
+.video-header {
+  text-align: center;
+  font-size: 55px;
 }
 
 .home-video-container {
@@ -27,8 +50,42 @@
 
 }
 
-.three-pack {
-  background-color: #e2e2e2;
+
+
+@media screen and (max-width: 575px) {
+
+  .main-image-container {
+    height: 58vh;
+    background-image: url("../images/home/Lies-From-Granny-Mobile.jpg");
+  }
+
+  /* ==================== 3-PACK COMPONENT ===================== */
+  .card-img {
+    width: 75%;
+  }
+
+  .card {
+    margin: 0;
+    &:first-of-type {
+      margin-top: 35px;
+    }
+  }
+
+  /* ==================== VIDEO COMPONENT ===================== */
+  .video-header {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .home-video-container {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .video {
+    height: 210px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
 }
-
-
