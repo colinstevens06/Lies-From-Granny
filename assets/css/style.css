@@ -1,0 +1,507 @@
+html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.page {
+  position: absolute;
+  top: 106px;
+  left: 0;
+  right: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* ==================== NAV ===================== */
+.nav-item {
+  font-size: 1.25em;
+  border: 1px solid #000000;
+  margin-left: 5px;
+  color: #000000;
+}
+
+.nav-item:hover {
+  background-color: #ed2079;
+  border: 1px solid #ed2079;
+  color: #f5f4f2;
+}
+
+.right-nav {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, .5)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: black;
+}
+
+.logoImg {
+  height: 80px;
+}
+
+.logo-nav-link {
+  color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.logo-nav-link:hover {
+  color: #ed2079;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+}
+
+.brand-header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 2.75em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 100px) {
+  .brand-header {
+    font-size: 1.3em;
+    margin-bottom: 0px;
+  }
+  .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logoImg {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nav-item {
+    font-size: 1em;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .brand-header {
+    font-size: 1.25em;
+  }
+  .logoImg {
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .brand-header {
+    font-size: 2.25em;
+  }
+  .logoImg {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    margin-left: 0px;
+    margin: 5px;
+  }
+  .btn {
+    width: 45%;
+    display: inline-block;
+  }
+  .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+/* ==================== FOOTER ===================== */
+.footer-spacer {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0 0 20px 0;
+}
+
+footer a {
+  color: #ed2079;
+}
+
+footer a:hover {
+  color: #e59bbb;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+/* ==================== SHOWS ===================== */
+.main-image-container__shows {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../images/home/Lies-From-Granny-Shows-Group.jpg");
+  background-size: cover;
+}
+
+.gig-title {
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.gig-deets {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.gig-text {
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.shows-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-top: 30px;
+  padding: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.show-card {
+  width: 540px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.show-card ul {
+  -webkit-padding-start: 28px;
+          padding-inline-start: 28px;
+}
+
+@media screen and (max-width: 575px) {
+  .main-image-container__shows {
+    display: none;
+  }
+  .shows-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .show-card {
+    border-bottom: 1px solid #000000;
+  }
+  .show-card:last-of-type {
+    border-bottom: none;
+  }
+  .gig-image {
+    margin-bottom: 10px;
+  }
+  .gig-text {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+  }
+  .gig-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .gig-deets {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .upcoming-shows {
+    margin-top: 1rem !important;
+  }
+}
+
+/* ==================== FADES ===================== */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 800ms linear 400ms;
+  transition: opacity 800ms linear 400ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+/* ==================== HOME ===================== */
+.main-image-container {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../images/home/Lies-From-Granny.jpg");
+  background-size: cover;
+}
+
+.fit-content {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+/* ==================== 3-PACK COMPONENT ===================== */
+.card {
+  background-color: transparent;
+  border: 0px;
+  margin: 3rem 0;
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.three-pack {
+  background-color: #e2e2e2;
+}
+
+/* ==================== VIDEO COMPONENT ===================== */
+.video-header {
+  text-align: center;
+  font-size: 55px;
+}
+
+.home-video-container {
+  width: 800px;
+  margin: auto;
+}
+
+.video {
+  margin: auto;
+  width: 100%;
+  height: 450px;
+}
+
+@media screen and (max-width: 575px) {
+  .main-image-container {
+    height: 58vh;
+    background-image: url("../images/home/Lies-From-Granny-Mobile.jpg");
+  }
+  /* ==================== 3-PACK COMPONENT ===================== */
+  .card-img {
+    width: 75%;
+  }
+  .card {
+    margin: 0;
+  }
+  .card:first-of-type {
+    margin-top: 35px;
+  }
+  /* ==================== VIDEO COMPONENT ===================== */
+  .video-header {
+    text-align: center;
+    font-size: 35px;
+  }
+  .home-video-container {
+    width: 350px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .video {
+    height: 200px;
+  }
+}
+
+/* ==================== SHOWS ===================== */
+.main-image-container__shows {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../images/home/Lies-From-Granny-Shows-Group.jpg");
+  background-size: cover;
+}
+
+.gig-title {
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.gig-deets {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.gig-text {
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.shows-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-top: 30px;
+  padding: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.show-card {
+  width: 540px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.show-card ul {
+  -webkit-padding-start: 28px;
+          padding-inline-start: 28px;
+}
+
+@media screen and (max-width: 575px) {
+  .main-image-container__shows {
+    display: none;
+  }
+  .shows-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .show-card {
+    border-bottom: 1px solid #000000;
+  }
+  .show-card:last-of-type {
+    border-bottom: none;
+  }
+  .gig-image {
+    margin-bottom: 10px;
+  }
+  .gig-text {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+  }
+  .gig-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .gig-deets {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .upcoming-shows {
+    margin-top: 1rem !important;
+  }
+}
+
+/* ==================== SONGS LIST ==================== */
+.songs-container {
+  -webkit-columns: 3;
+          columns: 3;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.songs-container .band-card {
+  width: 100%;
+  margin: 0;
+  padding: 10px 25px;
+  overflow: hidden;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.songs-container .band-card h2 {
+  font-size: 1.75rem;
+}
+
+.songs-container .band-card li {
+  font-size: 1.1rem;
+}
+
+.songs-container .band-card ul {
+  margin-bottom: .75rem;
+}
+
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .main-image {
+    margin-top: 15px;
+  }
+  .song-list-img {
+    margin-bottom: 15px;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 1150px;
+    max-width: 1150px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

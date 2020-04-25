@@ -1,0 +1,67 @@
+html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.page {
+  position: absolute;
+  top: 106px;
+  left: 0;
+  right: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+@import './nav';
+@import './footer';
+@import './shows';
+@import './fades';
+@import './home';
+@import './shows';
+@import './songs-list';
+
+
+
+@media screen and (max-width: 575px) {
+  h2 {
+     font-size: 1.5rem;
+  }
+
+  .main-image {
+     margin-top: 15px;
+  }
+
+  .song-list-img {
+     margin-bottom: 15px;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 1150px;
+    max-width: 1150px;
+  }
+}

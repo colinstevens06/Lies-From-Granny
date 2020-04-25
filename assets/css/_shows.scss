@@ -1,0 +1,88 @@
+/* ==================== SHOWS ===================== */
+
+.main-image-container__shows {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../images/home/Lies-From-Granny-Shows-Group.jpg");
+  background-size: cover;
+}
+
+.gig-title {
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.gig-deets {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.gig-text {
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.shows-container {
+  display: flex;
+  height: 100%;
+  flex-flow: row wrap;
+  margin-top: 30px;
+  padding: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.show-card {
+  width: 540px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  padding-right: 10px;
+  ul {
+    padding-inline-start: 28px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main-image-container__shows {
+    display: none;
+  }
+
+  .shows-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .show-card {
+    border-bottom: 1px solid #000000;
+    &:last-of-type {
+      border-bottom: none;
+    }
+
+  }
+
+  .gig-image {
+    margin-bottom: 10px;
+  }
+
+  .gig-text {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+  }
+
+  .gig-title {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .gig-deets {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .upcoming-shows {
+  margin-top: 1rem !important;
+}
+
+}

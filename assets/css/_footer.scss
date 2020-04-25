@@ -1,0 +1,23 @@
+/* ==================== FOOTER ===================== */
+
+.footer-spacer {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0 0 20px 0;
+}
+
+footer a {
+  color: #ed2079;
+}
+
+footer a:hover {
+  color: #e59bbb;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
