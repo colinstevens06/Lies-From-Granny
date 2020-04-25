@@ -13,11 +13,11 @@ export default function Home() {
           <div id="main-screen">
             <div className="container-fluid">
               <img className="main-image img-fluid" src="./assets/images/home/Lies-From-Granny.jpg" alt="Group shot of Lies From Granny" data-main-img="home" />
-              <div className="container my-5">
+              <div className="container mt-5">
                 <MainText />
-                <ThreePack />
-                <HomeVideo />
               </div>
+              <ThreePack />
+              <HomeVideo />
             </div>
           </div>
         </div>

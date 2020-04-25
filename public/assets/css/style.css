@@ -8,6 +8,8 @@ html {
 
 body {
   min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .clearfix::after {
@@ -21,6 +23,10 @@ body {
   top: 106px;
   left: 0;
   right: 0;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 /* ==================== NAV ===================== */
@@ -156,6 +162,7 @@ footer {
 .card {
   background-color: transparent;
   border: 0px;
+  margin: 3rem 0;
 }
 
 .card:hover {
@@ -178,6 +185,10 @@ footer {
   margin: auto;
   width: 100%;
   height: 450px;
+}
+
+.three-pack {
+  background-color: #e2e2e2;
 }
 
 /* ==================== SHOWS ===================== */

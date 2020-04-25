@@ -24,8 +24,7 @@ export default function MainText() {
             You can find us at venues in the Baltimore and D.C.
             areas. Have a song you think we should learn? A place
                   we should play? Drop us a note on <a href="https://www.instagram.com/liesfromgranny/"
-              target="_blank" rel="noopener noreferrer">Instagram</a> or
-                  <a href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank" rel="noopener noreferrer">Facebook</a>.
+              target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank" rel="noopener noreferrer">Facebook</a>.
                 </p>
           <p>
             Want to book us for a show? We'd love to hear from
