@@ -34,9 +34,8 @@ export default function Test() {
                     <p>Our bread and butter: pop punk.</p>
 
                     <p>
-                      Have ideas for a song we'd kill? Hit us up on
-                  <a href="https://www.instagram.com/liesfromgranny/" target="_blank">Instagram</a> or <a
-                        href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank">Facebook</a>.
+                      Have ideas for a song we'd kill? Hit us up on <a href="https://www.instagram.com/liesfromgranny/" target="_blank" rel="noopener noreferrer">Instagram</a> or <a
+                        href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank" rel="noopener noreferrer">Facebook</a>.
                 </p>
                     <p>
                       Want to book us for a gig? We'll work with you to
