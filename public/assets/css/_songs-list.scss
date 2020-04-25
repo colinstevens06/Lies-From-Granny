@@ -1,13 +1,40 @@
 /* ==================== SONGS LIST ==================== */
 
-.song-list h2 {
-  font-size: 1.75rem;
-}
+// .song-list h2 {
+//   font-size: 1.75rem;
+// }
 
-.song-list li {
-  font-size: 1.1rem;
-}
+// .song-list li {
+//   font-size: 1.1rem;
+// }
 
-.song-list ul {
-  margin-bottom: 1.5rem;
+// .song-list ul {
+//   margin-bottom: 1.5rem;
+// }
+
+.songs-container {
+  columns: 3;
+  column-gap: 20px;
+  .band-card {
+    width: 100%;
+    margin: 0;
+    padding: 10px 25px;
+    overflow: hidden;
+    break-inside: avoid;
+    h2 {
+      font-size: 1.75rem;
+
+    }
+    li {
+      font-size: 1.1rem;
+
+    }
+    ul {
+      margin-bottom: .75rem;
+
+    }
+
+
+
+  }
 }

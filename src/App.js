@@ -8,8 +8,7 @@ import logo from './logo.svg';
 import Nav from './components/global/Nav'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
-// import Shows from './pages/Shows'
-import ShowsTest from './pages/ShowsTest'
+import Shows from './pages/Shows'
 import Songs from './pages/Songs'
 
 function App() {
@@ -33,7 +32,7 @@ function App() {
                     <Contact />
                   </Route>
                   <Route exact path="/shows">
-                    <ShowsTest />
+                    <Shows />
                   </Route>
                   <Route exact path="/songs">
                     <Songs />

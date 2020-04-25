@@ -212,16 +212,32 @@ footer {
 }
 
 /* ==================== SONGS LIST ==================== */
-.song-list h2 {
+.songs-container {
+  -webkit-columns: 3;
+          columns: 3;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.songs-container .band-card {
+  width: 100%;
+  margin: 0;
+  padding: 10px 25px;
+  overflow: hidden;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.songs-container .band-card h2 {
   font-size: 1.75rem;
 }
 
-.song-list li {
+.songs-container .band-card li {
   font-size: 1.1rem;
 }
 
-.song-list ul {
-  margin-bottom: 1.5rem;
+.songs-container .band-card ul {
+  margin-bottom: .75rem;
 }
 
 @media screen and (min-width: 100px) {

@@ -4,6 +4,8 @@ import shows from './shows.json'
 
 import ShowCard from './ShowCard'
 
+
+
 export default function ShowsContainer() {
   return (
     <div className="shows-container">
