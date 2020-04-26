@@ -11,7 +11,7 @@ export default function ThreePack() {
           <div className="card-deck">
             <div className="card text-center nav-btn">
               <Link to="/shows">
-                <img src="./assets/images/home/Lies-From-Granny-Shows.jpg" alt="Lies From Granny in concert" className="card-img rounded-circle mx-auto" />
+                <img src="./assets/images/home/shows-thumb-2.jpg" alt="Lies From Granny in concert" className="card-img rounded-circle mx-auto" />
                 <div className="card-body">
                   <h3 className="card-title">Shows</h3>
                 </div>
