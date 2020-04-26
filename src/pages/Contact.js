@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../components/global/Footer'
 import { Link } from 'react-router-dom'
 
 export default function Contact() {
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0)
+
+    }, 400)
+  });
+
   return (
     <div>
       <section id="swup" className="transition-fade page">

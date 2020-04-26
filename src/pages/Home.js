@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../components/global/Footer'
 import ThreePack from '../components/home/ThreePack'
 import MainText from '../components/home/MainText'
 import HomeVideo from '../components/home/HomeVideo'
 
 export default function Home() {
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0)
+
+    }, 400)
+  });
+
   return (
     <div>
       <section id="swup" className="transition-fade page">

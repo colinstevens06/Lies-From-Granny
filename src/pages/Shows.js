@@ -1,9 +1,16 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
 import ShowsContainer from '../components/shows/ShowsContainer'
 import Footer from '../components/global/Footer'
 
 export default function ShowsTest() {
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0)
+
+    }, 400)
+  });
+
   return (
     <div>
 

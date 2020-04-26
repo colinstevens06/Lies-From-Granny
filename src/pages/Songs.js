@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SongsContainer from '../components/songs/SongsContainer'
 import Footer from '../components/global/Footer'
 
-export default function Test() {
+export default function Songs() {
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0)
+
+    }, 400)
+  });
+
   return (
     <div>
       <section id="swup" className="transition-fade page">
