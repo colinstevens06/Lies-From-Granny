@@ -371,6 +371,9 @@ footer {
   .card:first-of-type {
     margin-top: 35px;
   }
+  .card-image-overlay {
+    opacity: 0;
+  }
   /* ==================== VIDEO COMPONENT ===================== */
   .video-header {
     text-align: center;
