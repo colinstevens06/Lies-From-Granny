@@ -299,17 +299,40 @@ footer {
   background-color: transparent;
   border: 0px;
   margin: 3rem 0;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .card:hover {
   cursor: pointer;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.card:hover .card-image-overlay {
+  opacity: 0;
 }
 
 .card a {
   text-decoration: none;
   color: #212529;
+}
+
+.card-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.card-image-overlay {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 1;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .three-pack {
