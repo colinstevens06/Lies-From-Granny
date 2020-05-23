@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import SongsContainer from '../components/songs/SongsContainer'
 import Footer from '../components/global/Footer'
 
@@ -47,7 +48,7 @@ export default function Songs() {
                 </p>
                     <p>
                       Want to book us for a gig? We'll work with you to
-                      build a setlist for your audience. Contact us about
+                      build a setlist for your audience.               <Link to="/contact">Contact us</Link> about
                       a booking.
                 </p>
                   </div>

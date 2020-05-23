@@ -17,9 +17,7 @@ export default function SongsContainer() {
     if (input) {
       let newInput = [...input];
 
-      // if props.nameSortValue is true, make it a-z
-      // if (newInput[0].bandName > newInput[newInput.length - 1].bandName) {
-      console.log('a-z')
+      // alphabatize by band name
       return newInput.sort(function (a, b) {
         if (b.bandName.toLowerCase() < a.bandName.toLowerCase()) {
           return 1
@@ -29,18 +27,7 @@ export default function SongsContainer() {
           return 0
         }
       })
-      // } else {
-      //   console.log('z-a')
-      //   return newInput.sort(function (a, b) {
-      //     if (a.bandName.toLowerCase() < b.bandName.toLowerCase()) {
-      //       return 1
-      //     } else if (b.bandName.toLowerCase() < a.bandName.toLowerCase()) {
-      //       return -1
-      //     } else {
-      //       return 0
-      //     }
-      //   })
-      // }
+
     }
   }
 
