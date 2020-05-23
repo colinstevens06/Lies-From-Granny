@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function MainText() {
   return (
@@ -27,8 +28,8 @@ export default function MainText() {
               target="_blank" rel="noopener noreferrer">Instagram</a> or <a href="https://www.facebook.com/Lies-From-Granny-427515441329100" target="_blank" rel="noopener noreferrer">Facebook</a>.
                 </p>
           <p>
-            Want to book us for a show? We'd love to hear from
-            you.
+            Want to book us for a show? <Link to="/contact">We'd love to hear from
+            you</Link>.
                 </p>
         </div>
       </div>

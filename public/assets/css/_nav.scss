@@ -49,61 +49,61 @@
 
 @media screen and (min-width: 100px) {
   .brand-header {
-     font-size: 1.3em;
-     margin-bottom: 0px;
+    font-size: 1.3em;
+    margin-bottom: 0px;
   }
 
   .navbar-nav {
-     flex-direction: row;
-     justify-content: center;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .logoImg {
-     height: 40px;
+    height: 40px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .nav-item {
-     font-size: 1em;
-     padding: 0.25rem 0.5rem;
+    font-size: 1em;
+    padding: 0.25rem 0.5rem;
   }
 }
 
 @media screen and (min-width: 576px) {
   .brand-header {
-     font-size: 1.25em;
+    font-size: 1.25em;
   }
 
   .logoImg {
-     height: 70px;
+    height: 70px;
   }
 }
 
 @media screen and (min-width: 767px) {
   .brand-header {
-     font-size: 2.25em;
+    font-size: 2.25em;
   }
 
   .logoImg {
-     height: 80px;
+    height: 80px;
   }
 }
 
 
 @media screen and (min-width: 992px) {
   .nav-item {
-     margin-left: 0px;
-     margin: 5px;
+    margin-left: 0px;
+    margin: 5px;
   }
 
   .btn {
-     width: 45%;
-     display: inline-block;
+    width: 45%;
+    display: inline-block;
   }
 
   .navbar-nav {
-     flex-direction: row;
+    flex-direction: row;
   }
 
 }
