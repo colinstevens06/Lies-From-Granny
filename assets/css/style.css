@@ -326,7 +326,7 @@ footer {
 .card-image-overlay {
   position: absolute;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   -webkit-transition: .5s ease;
   transition: .5s ease;
